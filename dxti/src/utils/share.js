@@ -1,3 +1,4 @@
+// #ifdef H5
 import html2canvas from 'html2canvas'
 
 /**
@@ -57,3 +58,15 @@ export async function generateShareImage(selector, filename) {
     return false
   }
 }
+// #endif
+
+// #ifdef MP-WEIXIN
+/**
+ * 微信小程序暂不支持生成分享图
+ * 提示用户使用 H5 版本
+ */
+export async function generateShareImage(selector, filename) {
+  uni.showToast({ title: '请用浏览器打开 dxti.vercel.app 生成分享图', icon: 'none', duration: 3000 })
+  return false
+}
+// #endif
