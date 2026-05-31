@@ -46,6 +46,12 @@
           <text class="qr-text">扫码测测你的大学人格 →</text>
         </view>
       </view>
+
+      <!-- 免责声明 + 祝福 -->
+      <view class="disclaimer-section">
+        <text class="disclaimer-text">⚠️ 本测试纯属娱乐，结果仅供参考</text>
+        <text class="blessing-text">✨ 无论去哪所大学，愿你前程似锦，不负韶华 ✨</text>
+      </view>
     </view>
 
     <!-- 操作按钮 -->
@@ -234,6 +240,26 @@ export default {
 .qr-text {
   font-size: 0.75rem;
   color: #bbb;
+}
+
+.disclaimer-section {
+  text-align: center;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed #eee;
+}
+
+.disclaimer-text {
+  font-size: 0.7rem;
+  color: #ccc;
+  display: block;
+}
+
+.blessing-text {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 8px;
+  display: block;
 }
 
 .actions {
