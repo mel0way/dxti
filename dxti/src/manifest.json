@@ -4,5 +4,14 @@
   "description": "大学人格类型测试",
   "versionName": "1.0.0",
   "versionCode": "100",
-  "vueVersion": "3"
+  "vueVersion": "3",
+  "mp-weixin": {
+    "appid": "wx7effaa39882a37ec",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    }
+  }
 }
