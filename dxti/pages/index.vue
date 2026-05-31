@@ -11,7 +11,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .home {
   display: flex;
   flex-direction: column;
@@ -23,11 +23,11 @@ export default {
 .title {
   font-size: 2rem;
   font-weight: 800;
-  color: #88619a;
+  color: $color-primary;
 }
 .subtitle {
   font-size: 0.9rem;
-  color: #888;
+  color: $color-text-secondary;
   margin-top: 8px;
 }
 </style>

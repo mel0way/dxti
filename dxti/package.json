@@ -2,6 +2,7 @@
   "name": "dxti",
   "version": "1.0.0",
   "scripts": {
+    "dev": "npm run dev:h5",
     "dev:h5": "uni",
     "build:h5": "uni build"
   },

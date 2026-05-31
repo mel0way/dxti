@@ -15,6 +15,7 @@ body {
   color: #333;
 }
 
+/* mini-program only: */
 page {
   min-height: 100vh;
   background: #fff;
