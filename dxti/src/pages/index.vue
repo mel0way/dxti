@@ -16,7 +16,7 @@
         <view class="card-emoji">🧠</view>
         <view class="card-content">
           <text class="card-title">模拟测试</text>
-          <text class="card-desc">40道有趣情景题，找出你的大学人格</text>
+          <text class="card-desc">30道有趣情景题，找出你的大学人格</text>
         </view>
         <text class="card-arrow">→</text>
       </view>
