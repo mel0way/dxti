@@ -92,7 +92,7 @@ export default {
       selectedYear: null,
       selectedSubject: null,
       provinces: ['全国', '北京', '上海', '天津', '浙江'],
-      years: [2025, 2024, 2023],
+      years: [2026],
       subjects: ['语文', '数学', '英语', '物理', '化学', '生物', '政治', '历史', '地理']
     }
   },
