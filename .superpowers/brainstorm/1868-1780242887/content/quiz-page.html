@@ -1,0 +1,82 @@
+<h2>📝 测试页设计</h2>
+<p class="subtitle">40道情景题 · 逐题作答 · 进度条</p>
+
+<div class="mockup">
+  <div class="mockup-header">答题界面</div>
+  <div class="mockup-body" style="padding:24px">
+
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+      <span style="font-size:0.8rem;color:#888">第 7 / 40 题</span>
+    </div>
+
+    <div style="background:#eee;border-radius:20px;height:8px;margin-bottom:24px">
+      <div style="background:linear-gradient(135deg,#88619a,#33b5a9);width:18%;height:8px;border-radius:20px"></div>
+    </div>
+
+    <p style="font-size:1.2rem;font-weight:700;color:#333;line-height:1.5;margin-bottom:24px">
+      📱 你的手机相册里，最多的那一类是什么？
+    </p>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="border:2px solid #e0d4f0;border-radius:12px;padding:16px;cursor:pointer">
+        <span style="background:#f0e8f8;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;color:#88619a">A</span>
+        <span style="margin-left:8px">表情包：猫/狗/别人家的猫/狗，建了三个文件夹</span>
+      </div>
+
+      <div style="border:2px solid #e0d4f0;border-radius:12px;padding:16px;cursor:pointer">
+        <span style="background:#f0e8f8;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;color:#88619a">B</span>
+        <span style="margin-left:8px">课件截图 / 黑板板书 / 考前重点，清一色学习资料</span>
+      </div>
+
+      <div style="border:2px solid #e0d4f0;border-radius:12px;padding:16px;cursor:pointer">
+        <span style="background:#f0e8f8;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;color:#88619a">C</span>
+        <span style="margin-left:8px">校园随手拍：食堂、操场、落日、宿舍楼的猫</span>
+      </div>
+
+      <div style="border:2px solid #e0d4f0;border-radius:12px;padding:16px;cursor:pointer">
+        <span style="background:#f0e8f8;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;color:#88619a">D</span>
+        <span style="margin-left:8px">出去玩的：探店打卡、城市夜景、音乐节现场</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
+  <h3>交互细节确认</h3>
+  <div class="options" data-multiselect>
+    <div class="option" data-choice="detail-a" onclick="toggleSelect(this)">
+      <div class="letter">A</div>
+      <div class="content">
+        <h3>点击即下一题</h3>
+        <p>选完自动跳下一题，40题一口气做完，流畅但有压力</p>
+      </div>
+    </div>
+    <div class="option" data-choice="detail-b" onclick="toggleSelect(this)">
+      <div class="letter">B</div>
+      <div class="content">
+        <h3>选中后点"下一题"</h3>
+        <p>用户选一个选项后高亮，再点底部按钮进入下一题。可以后悔改选</p>
+      </div>
+    </div>
+    <div class="option" data-choice="detail-c" onclick="toggleSelect(this)">
+      <div class="letter">C</div>
+      <div class="content">
+        <h3>不支持返回上一题</h3>
+        <p>只能往前不能后退，防止用户纠结改答案</p>
+      </div>
+    </div>
+    <div class="option" data-choice="detail-d" onclick="toggleSelect(this)">
+      <div class="letter">D</div>
+      <div class="content">
+        <h3>支持返回上一题</h3>
+        <p>可以回看和修改，体验友好但可能降低结果"真实感"</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>你想怎么交互？</h3>
+  <p>选好告诉我（比如 B+D：选后点下一题 + 支持返回）</p>
+</div>
